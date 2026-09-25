@@ -46,7 +46,7 @@ const Contact = () => {
 
               <div className="whatsapp-box mt-4">
                 <h4>Reach us directly on WhatsApp</h4>
-                <a href="https://wa.me/919876543210" target="_blank" rel="noopener noreferrer" className="btn btn-whatsapp flex items-center justify-center gap-1">
+                <a href="https://wa.me/919876543210" target="_blank" rel="noopener noreferrer" className="btn btn-whatsapp flex items-center justify-center gap-1" style={{whiteSpace: 'nowrap'}}>
                   <MessageCircle /> Chat on WhatsApp
                 </a>
               </div>

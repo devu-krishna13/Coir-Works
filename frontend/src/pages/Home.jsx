@@ -39,11 +39,11 @@ const Home = () => {
               { name: 'Geotextiles', img: '/coir_geotextiles.jpg' },
               { name: 'Coir Yarn & Fiber', img: '/coir_banner.jpg' }
             ].map((cat, idx) => (
-              <Link to="/products" key={idx} style={{display: 'block', borderRadius: '8px', overflow: 'hidden', boxShadow: '0 5px 15px rgba(0,0,0,0.1)'}}>
-                <div style={{height: '200px', width: '100%'}}>
+              <Link to="/products" key={idx} style={{display: 'flex', flexDirection: 'column', borderRadius: '8px', overflow: 'hidden', boxShadow: '0 5px 15px rgba(0,0,0,0.1)'}}>
+                <div style={{height: '200px', width: '100%', flexShrink: 0}}>
                   <img src={cat.img} alt={cat.name} style={{width: '100%', height: '100%', objectFit: 'cover'}} />
                 </div>
-                <div style={{padding: '1.5rem', background: '#fff', color: 'var(--text-main)', fontWeight: 'bold'}}>{cat.name}</div>
+                <div style={{padding: '1.5rem', background: 'var(--primary)', color: '#fff', fontWeight: 'bold', flexGrow: 1, display: 'flex', alignItems: 'center', justifyContent: 'center'}}>{cat.name}</div>
               </Link>
             ))}
           </div>

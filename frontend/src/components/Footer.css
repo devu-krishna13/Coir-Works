@@ -85,6 +85,6 @@
   font-size: 0.9rem;
 }
 
-.footer { background-color: #ffffff; color: var(--text-main); }
+.footer { background-color: #f9f5f0; color: var(--text-main); }
 
 .footer-col p, .footer-col ul li a, .contact-info li, .contact-info a, .footer-bottom, .footer-col h3, .footer-col h4 { color: #000 !important; } .social-links a { color: #000 !important; }
