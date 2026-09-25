@@ -1,0 +1,64 @@
+.page-header {
+  padding: 8rem 0 4rem;
+  background-image: linear-gradient(rgba(26, 28, 25, 0.8), rgba(26, 28, 25, 0.8)), url('/coco_peat.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.page-header h1 {
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+}
+
+.category-filters {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 3rem;
+}
+
+.filter-btn {
+  background: transparent;
+  border: 1px solid var(--border-color);
+  padding: 0.75rem 1.5rem;
+  border-radius: 50px;
+  font-size: 1rem;
+  color: var(--text-main);
+  transition: var(--transition);
+}
+
+.filter-btn:hover,
+.filter-btn.active {
+  background-color: var(--primary);
+  color: var(--text-light);
+  border-color: var(--primary);
+}
+
+.category-label {
+  display: inline-block;
+  font-size: 0.8rem;
+  color: var(--secondary);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.btn-link {
+  background: none;
+  border: none;
+  color: var(--primary);
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1rem;
+  padding: 0;
+  transition: var(--transition);
+}
+
+.btn-link:hover {
+  color: var(--secondary);
+  gap: 0.75rem;
+}
